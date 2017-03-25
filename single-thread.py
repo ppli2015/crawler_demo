@@ -23,7 +23,7 @@ if __name__ == '__main__':
     id_list = ['4865787', 'hana.magic', '32325066']
     work_queue = Queue.Queue()
     done = set()
-    cookiePath = 'cookie.txt'  # cookie string
+    cookiePath = 'cookieStr.txt'  # cookie string
     cookie_dict = getCookieDic(cookiePath)  # convert cookie string to dict
     count_dic = {}  # status number for each person
 
