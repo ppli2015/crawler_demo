@@ -1,12 +1,13 @@
 # crawler_demo
 
-- single-thread.py
+- single-thread.py --
 a single thread crawler based on *requests* and *BeautifulSoup*, etc.
 
-- multi-thread.py
+- multi-thread.py --
 a multiple threads crawler based on *requests* and *BeautifulSoup*, etc.
 
-- demo
+- demo --
+a crawler based on *scrapy*.
 ```
   demo
   ├── scrapy.cfg
@@ -19,4 +20,3 @@ a multiple threads crawler based on *requests* and *BeautifulSoup*, etc.
             ├── __init__.py
             └── example.py
 ```
-a crawler based on *scrapy*.
