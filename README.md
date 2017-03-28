@@ -7,8 +7,10 @@ a single thread crawler based on *requests* and *BeautifulSoup*, etc.
 a multiple threads crawler based on *requests* and *BeautifulSoup*, etc.
 
 - demo
-├── scrapy.cfg
-└── demo
+```
+  demo
+  ├── scrapy.cfg
+  └── demo
       ├── __init__.py
       ├── items.py
       ├── pipelines.py
@@ -16,4 +18,5 @@ a multiple threads crawler based on *requests* and *BeautifulSoup*, etc.
       └── spiders
             ├── __init__.py
             └── example.py
+```
 a crawler based on *scrapy*.
